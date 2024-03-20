@@ -6,6 +6,7 @@ example_dictionary = {
 }
 
 # 딕셔너리의 items() 함수 결과 출력하기
+# items()함수는 키와 값을 조합해서 쉽게 반복문 작성 가능
 print("# 딕셔너리 items() 함수")
 print("items():", example_dictionary.items())
 print()
