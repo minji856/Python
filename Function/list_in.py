@@ -5,6 +5,10 @@ array = [i*i for i in range(0, 20, 2)]
 print(array)
 
 array = ["사과", "자두", "초콜릿", "바나나", "체리"]
-output = [fruit for fruit in array if  fruit != "초콜릿"]
+# output = [fruit for fruit in array if  fruit != "초콜릿"]
+# 너무 길어지면 3줄로 나누기. 어디서 줄바꿈해도 상관은 없다
+output = [fruit 
+    for fruit in array 
+    if  fruit != "초콜릿"]
 # print(array)하면 초콜릿 표함 된 채로 출력됨
 print(output)
