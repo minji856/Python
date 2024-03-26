@@ -6,5 +6,5 @@ print(array)
 
 array = ["사과", "자두", "초콜릿", "바나나", "체리"]
 output = [fruit for fruit in array if  fruit != "초콜릿"]
-# array 를 출력하면 초콜릿 표함 된 채로 출력됨
+# print(array)하면 초콜릿 표함 된 채로 출력됨
 print(output)
